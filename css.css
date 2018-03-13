@@ -1,0 +1,125 @@
+
+html, body{
+width: 100%;
+font-family: "Helvetica Neue",Arial, sans-serif;
+-ms-text-size-adjust: 100%;
+-webkit-text-size-adjust: 100%;
+background-color: transparent;
+}
+body{
+  max-width: 940px;
+  margin: auto;
+  background-image: url(258f18da8dfe10d36704f9dccaaa17dd--cool-backgrounds-iphone-backgrounds.jpg);
+  background-size: contain;
+  color: white;
+  font-size:100%;
+   padding: 3%;
+}
+
+.profile p{
+  font-weight: bold;
+}
+
+.profile img{
+  margin-right: 3em;
+  width:40%;
+  float: right;
+  border-radius: 20%;
+}
+
+.profile:after{
+  content:"";
+  display: table;
+  clear: both;
+}
+
+.paris img{
+  float:left;
+  width: 35%;
+  margin-right:3em;
+  }
+  .paris p{
+    font-weight: bold;
+      }
+  .paris:after, .paris:before{
+    content: "";
+    display: table;
+    clear: both;
+  }
+  h3{
+    font-weight: 900;
+    font-weight: bold;
+  }
+  h5{
+    font-weight: bolder;
+    font-size: 150%;
+  }
+
+  .six img{
+    float:left;
+      width: 35%;
+      margin-right:1em;
+    }
+    .six p{
+      font-style: italic;
+    }
+    .six:before, .six:after{
+      content: "";
+      display: table;
+      clear: both;}
+      h6{
+        font-weight: bolder;
+        font-size: 150%;
+      }
+
+      .church img{
+        float:right;
+        width: 35%;
+        margin-left:1em;
+        }
+        .church p{
+          font-style: italic;
+
+        }
+        .church:after, .church:before{
+          content: "";
+          display: table;
+          clear: both;}
+          h7{
+            font-weight: bolder;
+            font-size: 150%;
+          }
+
+          .city img{
+            float:left;
+            width: 35%;
+            margin-right:1em;
+            }
+            .city{ font-style: italic;
+              }
+
+            .city:after, .city:before{
+              content: "";
+
+              display: table;
+              clear: both;}
+  textarea {
+  overflow: auto;
+}
+
+
+table, td, th {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+     border-spacing: 0;
+    width: 50%;
+}
+
+th {
+    text-align: left;
+    padding: 0
+
+}

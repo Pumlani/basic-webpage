@@ -8,6 +8,7 @@ background-color: transparent;
 }
 body{
   max-width: 940px;
+  width: 100%;
   margin: auto;
   background-image: url(images.jpeg);
   background-size: contain;
@@ -114,8 +115,8 @@ table, td, th {
 
 table {
     border-collapse: collapse;
-     border-spacing: 0;
-    width: 50%;
+     border-spacing: 1px;
+    width: 100%;
 }
 
 th {
